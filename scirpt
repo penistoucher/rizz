@@ -64,7 +64,7 @@ Tab:AddButton({
         end
      
         getgenv().GetNearestTarget = function()
-            -- Credits to whoever made this, i didnt make it, and my own mouse2plr function kinda sucks
+         
             local players = {}
             local PLAYER_HOLD  = {}
             local DISTANCES = {}
