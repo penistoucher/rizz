@@ -1,12 +1,15 @@
+
+
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "bestar.xyz : synax made this", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
 local key = game.Players.LocalPlayer.Name
 if key == "phildez" or
    key == "CxlxbGotADraco" then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/thinonph/bestar.cc/main/userids"))()
 end
 
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-
-local Window = OrionLib:MakeWindow({Name = "bestar.xyz : synax made this", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 OrionLib:MakeNotification({
 	Name = "working",
